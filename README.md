@@ -1,1 +1,1 @@
-# Russ-Ecommerce-Website
+# Russ-Static-Template-Ecommerce-Website
