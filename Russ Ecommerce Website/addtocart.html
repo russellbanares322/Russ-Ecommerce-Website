@@ -1,183 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Lobster&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="fontawesome/css/all.css" />
 
     <title>Add To Cart</title>
-</head>
-<body>
-            <div class="container">
-                <div class="navbar">
-                    <div class="logo">
-                        <a href="index.html"><img src="kisspng-yup-logo-brand-buatan-minal-aidin-5b0fb9583ae2e8.1460596015277571442412.png" width="125px"></a>
-                    </div>
-                    <nav>
-                        <ul id="MenuItems">
-                            <li><a href="index.html">Home</a></li>  
-                            <li><a href="">About</a></li>
-                            <li><a href="product.html">Products</a></li>
-                            <li><a href="account.html">My Account</a></li>                         
-                        </ul>
-                    </nav> 
-                    <a href="addtocart.html"><img src="carty.png" width="30px" height="30px" class="shopping-cart"></a>
-                    <img src="MENU.png" class="menu-icon" onclick="menutoggle()">  
-                </div>
-            </div> 
-
-<!---------carts------------->
-<div class="small-container cart-page">
-    <table>
-        <tr>
-            <th>Product</th>
-            <th>Quantity</th>
-            <th>Subtotal</th>
-        </tr>
-        <tr>
-            <td>
-                <div class="cart-info">
-                    <img src="fb.png">
-                    <div>
-                        <p>Russ Cologne</p>
-                        <small>P 150.00</small>
-                        <br/>
-                        <a href="">Remove</a>
-                    </div>
-                
-                </div>
-            </td>
-            <td>
-                <input type="number" value="1">
-            </td>
-            <td>
-                P500.00
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <div class="cart-info">
-                    <img src="fb.png">
-                    <div>
-                        <p>Russ Cologne</p>
-                        <small>P 150.00</small>
-                        <br/>
-                        <a href="">Remove</a>
-                    </div>
-                
-                </div>
-            </td>
-            <td>
-                <input type="number" value="1">
-            </td>
-            <td>
-                P500.00
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <div class="cart-info">
-                    <img src="fb.png">
-                    <div>
-                        <p>Russ Cologne</p>
-                        <small>P 150.00</small>
-                        <br/>
-                        <a href="">Remove</a>
-                    </div>
-                
-                </div>
-            </td>
-            <td>
-                <input type="number" value="1">
-            </td>
-            <td>
-                P500.00
-            </td>
-        </tr>
-    </table>
-    <div class="total-price">
-
-        <table>
-            <tr>
-                <td>Subtotal</td>
-                <td>P 500.00</td>
-            </tr>
-            <tr>
-                <td>Tax</td>
-                <td>P 500.00</td>
-            </tr>
-            <tr>
-                <td>Total</td>
-                <td>P 500.00</td>
-            </tr>
-        </table>
-    </div>
-</div>
-<!--------footer-------->
-<div class="footer">
+  </head>
+  <body>
     <div class="container">
-        <div class="row">
-            <div class="footer-col-1">
-                <h3>Download our App</h3>
-                <p>Shopping spree with our App</p>
-                <div class="app-logo">
-                    <img src="google-play-badge.png">
-                </div>
-            </div>
-            <div class="footer-col-2">
-                <img src="kisspng-yup-logo-brand-buatan-minal-aidin-5b0fb9583ae2e8.1460596015277571442412.png">
-                <p>Shopping spree with our App</p>
-            </div>
-            <div class="footer-col-3">
-                <h3>Useful links</h3>
-                <ul>
-                    <li>Plyer</li>
-                    <li>Blogpost</li>
-                    <li>Ticket</li>
-                </ul>
-            </div>
-            <div class="footer-col-3">
-                <h3>Follow us</h3>
-                <ul>
-                    <li>Facebook</li>
-                    <li>Twitter</li>
-                    <li>Instagram</li>
-                    <li>Youtube</li>
-                </ul>
-            </div>
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="images/RUSS-removebg-preview.png" width="125px"
+          /></a>
         </div>
-        <hr>
-        <p class="copyright">Copyright 2021 - Russ</p>    
-
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="account.html">My Account</a></li>
+            <li><a href="productcontents.html">Shop Now</a></li>
+          </ul>
+        </nav>
+        <a href="addtocart.html"
+          ><img
+            src="images/carty.png"
+            width="30px"
+            height="30px"
+            class="shopping-cart"
+        /></a>
+        <img src="images/MENU.png" class="menu-icon" onclick="menutoggle()" />
+      </div>
     </div>
-</div>
 
-<script>
-    var MenuItems = document.getElementById("MenuItems");
+    <!---------carts------------->
+    <div class="small-container cart-page">
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Subtotal</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="images/1.jpg" />
+              <div>
+                <p>Russ Shirt</p>
+                <small>P 150.00</small>
+                <br />
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td>
+            <input type="number" value="1" />
+          </td>
+          <td>P500.00</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="images/2.jpg" />
+              <div>
+                <p>Russ Shirt</p>
+                <small>P 250.00</small>
+                <br />
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td>
+            <input type="number" value="1" />
+          </td>
+          <td>P500.00</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="images/1.jpg" />
+              <div>
+                <p>Russ Shirt</p>
+                <small>P 150.00</small>
+                <br />
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td>
+            <input type="number" value="1" />
+          </td>
+          <td>P500.00</td>
+        </tr>
+      </table>
+      <div class="total-price">
+        <table>
+          <tr>
+            <td>Subtotal</td>
+            <td>P 500.00</td>
+          </tr>
+          <tr>
+            <td>Tax</td>
+            <td>P 500.00</td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>P 500.00</td>
+          </tr>
+        </table>
+      </div>
+      <br /><a href="" class="btn">Check Out</a>
+    </div>
+    <!--------footer-------->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download our App</h3>
+            <p>Shopping spree with our App</p>
+            <div class="app-logo">
+              <img src="images/google-play-badge.png" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="images/RUSS-removebg-preview.png" />
+            <p>Shopping spree with our App</p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful links</h3>
+            <ul>
+              <li>Plyer</li>
+              <li>Blogpost</li>
+              <li>Ticket</li>
+            </ul>
+          </div>
+          <div class="footer-col-3">
+            <h3>Follow us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright 2021 - Russ</p>
+      </div>
+    </div>
 
-    MenuItems.style.maxHeight = "100px";
-    function menutoggle() {
-        if(MenuItems.style.maxHeight == "0px")
-        {
-            MenuItems.style.maxHeight = "200px";
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "100px";
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
         }
-        else
-        {
-            MenuItems.style.maxHeight = "0px";
-        }
-    }
-</script>
+      }
+    </script>
 
-
-    <div class="slider"> </div>    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollToPlugin.min.js" integrity="sha512-kSI9CgGh60rJbNVeMJvfNX0UTKAq8LEOea/yKJQbFpIroxT7bf9/zUFXbnfsQP5F6xlOOHtCfBPgsE1ceiHnRw==" crossorigin="anonymous"></script> 
+    <div class="slider"></div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+      integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollToPlugin.min.js"
+      integrity="sha512-kSI9CgGh60rJbNVeMJvfNX0UTKAq8LEOea/yKJQbFpIroxT7bf9/zUFXbnfsQP5F6xlOOHtCfBPgsE1ceiHnRw=="
+      crossorigin="anonymous"
+    ></script>
     <script src="./app.js"></script>
-</body>
+  </body>
 </html>
